@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Title } from '../styles/index';
+import { Box, Title, Touchable } from '../styles/index';
 import { colors } from '../../styles/theme.json';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import { SafeAreaView } from 'react-native';
@@ -16,9 +16,9 @@ export const Header = ({ label }: HeaderProps) => {
       justify="center"
       border={`1px solid ${colors.muted}30`}>
       <SafeAreaView style={{ flexDirection: 'row' }}>
-        <Box width="80px" align="center" justify="center">
+        <Touchable width="80px" align="center" justify="center">
           <Icon name="menu" size={30} />
-        </Box>
+        </Touchable>
         <Box align="center" justify="center">
           <Title>{label}</Title>
         </Box>

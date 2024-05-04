@@ -3,6 +3,8 @@ import {
   TextProps as TextRProps,
   TouchableOpacityProps,
   TextInputProps,
+  ScrollViewProps,
+  ImageBackgroundProps,
 } from 'react-native';
 import theme from '../../styles/theme.json';
 
@@ -14,7 +16,7 @@ export type BoxProps = {
   fluid?: boolean;
   width?: string;
   height?: string;
-  spacing?: number;
+  spacing?: number | string;
   row?: boolean;
   justify?: string;
   align?: string;
@@ -61,3 +63,26 @@ export type TextProps = {
 export type InputProps = {
   placeholderTextColor?: string;
 } & TextInputProps;
+
+export type ScrollProps = {
+  hasPadding?: boolean;
+  fluid?: boolean;
+  width?: string;
+  height?: string;
+  background?: Color;
+} & ScrollViewProps;
+
+export type CoverProps = {
+  image?: string;
+  source?: ImageBackgroundProps;
+  width?: any;
+  height?: any;
+  spacing?: string;
+  row?: boolean;
+  justify?: string;
+  align?: string;
+  hasPadding?: boolean;
+  circle?: boolean;
+  radius?: string;
+  border?: string;
+} & ImageBackgroundProps;
