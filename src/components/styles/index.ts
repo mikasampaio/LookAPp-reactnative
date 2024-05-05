@@ -61,7 +61,7 @@ export const Spacer = styled.View<SpacerProps>`
 export const Text = styled.Text.attrs(props => ({
   onPress: props.onPress,
 }))<TextProps>`
-  color: ${props => colors[props.color || 'light']};
+  color: ${props => colors[props.color || 'black']};
   letter-spacing: -0.6px;
   font-size: ${props => fonts.text.sizes[props.variant || 'normal']};
   font-weight: ${props => (props.bold ? 'bold' : '300')};

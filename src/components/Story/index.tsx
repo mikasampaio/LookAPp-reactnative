@@ -28,8 +28,12 @@ export default function Story() {
           />
 
           <Box height="50px" justify="flex-end">
-            <Text bold>Mikasampaio</Text>
-            <Text variant="small">2 mins ago</Text>
+            <Text bold color="light">
+              Mikasampaio
+            </Text>
+            <Text variant="small" color="light">
+              2 mins ago
+            </Text>
           </Box>
         </Box>
       </Cover>
