@@ -22,7 +22,7 @@ export type BoxProps = {
   align?: string;
   hasPadding?: boolean;
   radius?: string;
-  background?: Color;
+  background?: Color | string;
   gap?: string;
   border?: string;
   borderBottom?: string;
