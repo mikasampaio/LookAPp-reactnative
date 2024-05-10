@@ -20,7 +20,7 @@ export const Header = ({ label }: HeaderProps) => {
           <Icon name="menu" size={30} />
         </Touchable>
         <Box align="center" justify="center">
-          <Title>{label}</Title>
+          <Title variant="small">{label}</Title>
         </Box>
         <Box width="80px">
           <Title />

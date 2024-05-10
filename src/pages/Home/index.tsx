@@ -16,17 +16,19 @@ const Home = () => {
           LOOKAPP
         </Title>
         <Spacer />
-        <Text align="center" spacing="0 40px">
+        <Text align="center" spacing="0 40px" color="light">
           Stay on top of the fashion world and buy your favorite looks.
         </Text>
       </Box>
 
       <Box justify="center" align="center" fluid>
         <Button block>
-          <Text>Sign In my account</Text>
+          <Text color="light">Sign In my account</Text>
         </Button>
         <Spacer size="40px" />
-        <Text underline>Create new account</Text>
+        <Text color="light" underline>
+          Create new account
+        </Text>
       </Box>
     </Box>
   );

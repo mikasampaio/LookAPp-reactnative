@@ -30,13 +30,11 @@ const SignIn = () => {
       <Spacer size="50px" />
 
       <Button block>
-        <Text>Create new account</Text>
+        <Text color="light">Create new account</Text>
       </Button>
       <Spacer />
 
-      <Text color="black" underline>
-        Back to sign In
-      </Text>
+      <Text underline>Back to sign In</Text>
     </Box>
   );
 };

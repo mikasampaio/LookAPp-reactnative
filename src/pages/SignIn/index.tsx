@@ -30,7 +30,7 @@ const SignUp = () => {
         <Spacer size="50px" />
 
         <Button block>
-          <Text>SignIn into my account</Text>
+          <Text color="light">SignIn into my account</Text>
         </Button>
         <Spacer />
 
